@@ -1,66 +1,81 @@
 <template>
-  <section class="container">
-    <div>
-      <logo/>
-      <h1 class="title">
-        sdaubron-app
-      </h1>
-      <h2 class="subtitle">
-        Sandrine Daubron website
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green">Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey">GitHub</a>
-      </div>
-    </div>
-  </section>
+	<section>
+		<b-carousel id="carousel1"
+					:interval="4000"
+					controls
+               		indicators
+					height="700"
+					v-model="slide"
+					@sliding-start="onSlideStart"
+					@sliding-end="onSlideEnd"
+		>
+			<!-- Photo by How-Soon Ngu on Unsplash -->
+			<!-- Photo by Nick Wilkes on Unsplash -->
+			<b-carousel-slide img-src="~/assets/images/home-slide-1.jpg">
+			 	<h1 class="mb-5">Hello world!</h1>
+			 </b-carousel-slide>
+			<b-carousel-slide  img-src="~/assets/images/home-slide-2.jpg"></b-carousel-slide>
+		</b-carousel>
+
+		<div class="text-center my-5">
+			<h1 class="mb-3">206, avenue Du Pont Alexandre - 91345 JSAISPAOU</h1>
+			<a class="btn btn-large py-3 px-5 text-20-xs" target="_blank" href="https://www.doctolib.fr/">
+				<span>Prendre rendez-vous</span>
+				<fa class="ml-2" :icon="['fa', 'angle-right']" />
+			</a>
+		</div>
+		<div class="my-5 container-fluid">
+			<div class="row">
+				<div class="col-md-3 col-12 py-3 py-md-0 px-4" v-for="job in jobs">
+					<JobBlock v-bind:jobName=job.name></JobBlock>	
+				</div>
+			</div>
+		</div>
+	</section>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+import JobBlock from '~/components/job-block.vue';
 
 export default {
-  components: {
-    Logo
-  }
+	components: {
+		JobBlock
+	},
+
+	data () {
+		return {
+			slide: 0,
+			sliding: null,
+			jobs: [
+				{ name: 'podologie' },
+				{ name: 'pedicure' },
+				{ name: 'posturologie' },
+				{ name: 'reflexologie' }
+			]
+		}
+	},
+
+	methods: {
+		onSlideStart (slide) {
+		this.sliding = true
+		},
+		onSlideEnd (slide) {
+		this.sliding = false
+		}
+	}
 }
 </script>
 
 <style>
-
-.container {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+.btn {
+	color: black;
+	background-color: #f2c392;
 }
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
+.btn:hover {
+	color: #1f1f1f;
+	background-color: #fbd2a8;
 }
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
+.btn:focus {
+	box-shadow: none;
 }
 </style>

@@ -27,6 +27,7 @@ module.exports = {
   ** Global CSS
   */
   css: [
+    '@/assets/scss/main.scss'
   ],
 
   /*
@@ -38,10 +39,19 @@ module.exports = {
   /*
   ** Nuxt.js modules
   */
-  modules: [,
-    // Doc: https://bootstrap-vue.js.org/docs/
+  modules: [
+    ['nuxt-fontawesome', {
+      component: 'fa', 
+      imports: [
+        {
+          set: '@fortawesome/free-solid-svg-icons',
+          icons: ['fas']
+        }
+      ]
+    }],
     'bootstrap-vue/nuxt'
   ],
+
 
   /*
   ** Build configuration
@@ -51,14 +61,26 @@ module.exports = {
     ** You can extend webpack config here
     */
     extend(config, ctx) {
+      const vueLoader = config.module.rules.find((rule) => rule.loader === 'vue-loader');
+      vueLoader.options.transformAssetUrls = {
+        video: ['src', 'poster'],
+        source: 'src',
+        img: 'src',
+        image: 'xlink:href',
+        'b-img': 'src',
+        'b-img-lazy': ['src', 'blank-src'],
+        'b-card': 'img-src',
+        'b-card-img': 'img-src',
+        'b-carousel-slide': 'img-src',
+        'b-embed': 'src'
+      };
       // Run ESLint on save
       if (ctx.isDev && ctx.isClient) {
         config.module.rules.push({
           enforce: 'pre',
           test: /\.(js|vue)$/,
-          loader: 'eslint-loader',
           exclude: /(node_modules)/
-        })
+        });
       }
     }
   }

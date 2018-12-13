@@ -1,0 +1,54 @@
+$bg-color: #efd4b9;
+
+h1 {
+    font-size: 1.2rem !important;
+    @media (min-width: 992px) { 
+        font-size: 2.5rem !important;
+    }
+} 
+
+.header-container {
+    @media (min-width: 992px) { 
+        margin-left: 10%;
+        margin-right: 10%
+    }
+} 
+
+.hidden-xs {
+    @media (max-width: 992px) { 
+        display: none !important;
+    }
+} 
+
+
+.hidden-lg {
+    @media (min-width: 992px) { 
+        display: none !important;
+    }
+} 
+
+.bg-color {
+    background-color: $bg-color;
+}
+
+.text-24-xs {
+    font-size: 24px;
+}
+
+.text-20-xs {
+    font-size: 20px;
+}
+
+// For block vue 
+.text-position {
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    position: absolute;
+    top: -3%;
+    left: 6%;
+    @media (min-width: 992px) { 
+        top: 1%;
+        left: 12%;
+    }
+}
