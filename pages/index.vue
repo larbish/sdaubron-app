@@ -18,7 +18,7 @@
 		</b-carousel>
 
 		<div class="text-center my-5">
-			<h1 class="mb-3">206, avenue Du Pont Alexandre - 91345 JSAISPAOU</h1>
+			<h1 class="mb-3">1 rue des mésanges - 91 400 Orsay</h1>
 			<a class="btn btn-large py-3 px-5 text-20-xs" target="_blank" href="https://www.doctolib.fr/">
 				<span>Prendre rendez-vous</span>
 				<fa class="ml-2" :icon="['fa', 'angle-right']" />
