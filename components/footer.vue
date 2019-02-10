@@ -1,6 +1,6 @@
 <template>
 	<section>
-		<div class="hidden-xs bg-color d-flex justify-content-center py-3">
+		<div class="hidden-xs bg-black text-white d-flex justify-content-center py-3">
 			<div class="mr-4">
 				<fa class="mr-2" :icon="['fa', 'map-marker-alt']" />
 				<span>1 rue des mésanges, 91400, Orsay</span>
@@ -14,7 +14,7 @@
 				<span>06 70 68 96 79</span>
 			</div>
 		</div>
-		<div class="hidden-lg bg-color d-flex flex-column justify-content-center text-center py-3">
+		<div class="hidden-lg bg-black text-white d-flex flex-column justify-content-center text-center py-3">
 			<div>
 				<fa class="mr-2" :icon="['fa', 'map-marker-alt']" />
 				<span>1 rue des mésanges, 91400, Orsay</span>

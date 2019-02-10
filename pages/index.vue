@@ -68,12 +68,14 @@ export default {
 
 <style>
 .btn {
-	color: black;
-	background-color: #f2c392;
+	border-radius: 35px !important;
+	color: white;
+	background-color: black;
 }
 .btn:hover {
-	color: #1f1f1f;
-	background-color: #fbd2a8;
+	border: 1px solid black;
+	color: black;
+	background-color: white;
 }
 .btn:focus {
 	box-shadow: none;

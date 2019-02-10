@@ -22,8 +22,8 @@ export default {
 <style>
 
 .job-img {
-	-webkit-filter: sepia(100%);
-	filter: sepia(100%);
+	-webkit-filter: grayscale(80%);
+	filter: grayscale(80%);
 	-webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
 
@@ -33,8 +33,8 @@ export default {
 }
 
 .job-img:hover {
-	-webkit-filter: sepia(0);
-    filter: sepia(0);
+	-webkit-filter: grayscale(50%);
+    filter: grayscale(50%);
     -webkit-transform: scale(0.75);
 	transform: scale(0.85);
 }
