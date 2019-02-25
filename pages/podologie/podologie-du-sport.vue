@@ -1,8 +1,10 @@
 <template>
 	<section class="bg-grey">
+        <h1 class="banner-h1">Podologie du sport</h1>
+        <img class="w-100 h-auto" src="/podologie_sport_banner.jpg" alt="podologie_sport_banner">
+
         <div class="container">
-            <h1 class="py-3 m-0">Les soins de la pédicurie</h1>
-            <div class="bg-white p-3 mb-3">
+            <div class="bg-white p-3 mb-3 mt-5">
                 <p>
                     La podologie du sport est une spécialité car il faut connaitre le sport pour savoir
                     quelles sont les contraintes que va rencontrer le sportif et apporter les
@@ -35,6 +37,18 @@
                     thérapeutes, pour bien prendre le sportif dans sa globalité et l’aider dans sa
                     performance.
                 </p>
+            </div>
+
+            <div class="row">
+                <div class="col-4 p-5">
+                    <img class="w-100 h-auto" src="/podologie_sport_1.jpg" alt="podologie_sport_1">
+                </div>
+                <div class="col-4 p-5">
+                    <img class="w-100 h-auto" src="/podologie_sport_2.jpg" alt="podologie_sport_2">
+                </div>
+                <div class="col-4 p-5">
+                    <img class="w-100 h-auto" src="/podologie_sport_3.jpg" alt="podologie_sport_3">
+                </div>
             </div>
         </div>
 	</section>

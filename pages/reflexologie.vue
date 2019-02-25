@@ -1,5 +1,8 @@
 <template>
 	<section class="bg-grey">
+        <h1 class="banner-h1">La réflexologie</h1>
+        <img class="w-100 h-auto" src="/reflexologie_banner.jpg" alt="reflexologie_banner">
+
         <div class="container">
             <h1 class="py-3 m-0">La réflexologie</h1>
             <div class="bg-white p-3">
@@ -16,6 +19,14 @@
                 <p class="mb-0">
                     C’est très relaxant ! Compter 50 minutes de massage.
                 </p>
+            </div>
+            <div class="row">
+                <div class="col-6 p-5">
+                    <img class="w-100 h-auto" src="/reflexologie_face_mediane.jpg" alt="reflexologie_face_mediane">
+                </div>
+                <div class="col-6 p-5">
+                    <img class="w-100 h-auto" src="/reflexologie_planche.jpg" alt="reflexologie_planche">
+                </div>
             </div>
         </div>
 	</section>

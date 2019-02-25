@@ -25,12 +25,14 @@
 					</b-nav-item-dropdown>
 					
 					<b-nav-item-dropdown text="Podologie">
-						<b-dropdown-item to="/podologie/semelles">Soin</b-dropdown-item>
+						<b-dropdown-item to="/podologie/semelles">Semelles</b-dropdown-item>
 						<b-dropdown-item to="/podologie/podologie-du-sport">Podologie du sport</b-dropdown-item>
 						<b-dropdown-item to="/podologie/orthoplastie">Orthoplastie</b-dropdown-item>
 					</b-nav-item-dropdown>
 
 					<b-nav-item class="text-black" to="/posturologie">Posturologie</b-nav-item>
+
+					<b-nav-item to="/podopediatrie">Podopédiatrie</b-nav-item>
 
 					<b-nav-item to="/reflexologie">Réfléxologie</b-nav-item>
 

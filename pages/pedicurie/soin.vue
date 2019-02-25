@@ -1,8 +1,10 @@
 <template>
 	<section class="bg-grey">
+        <h1 class="banner-h1">Les soins de la pédicurie</h1>
+        <img class="w-100 h-auto" src="/pedicurie_banner.jpg" alt="pedicurie_banner">
+
         <div class="container">
-            <h1 class="py-3 m-0">Les soins de la pédicurie</h1>
-            <div class="bg-white p-3 mb-3">
+            <div class="bg-white p-3 mb-3 mt-5">
                 <p>La pédicurie permet de traiter les affections épidermiques du pied et les affections unguéales (de l’ongle) :</p>
                 <ul>
                     <li>Cor, œil de perdrix (cor entre les orteils)</li>
@@ -18,6 +20,16 @@
                     <li>Conseils</li>
                 </ul>
             </div>
+            
+            <div class="row">
+                <div class="col-4 offset-2 p-5">
+                    <img class="w-100 h-auto" src="/pedicurie_avant_2.jpg" alt="avant_2">
+                </div>
+                <div class="col-4 p-5">
+                    <img class="w-100 h-auto" src="/pedicurie_apres_2.jpg" alt="apres_2">
+                </div>
+            </div>
+
             <div class="bg-white p-3">
                 <p>Les soins de pédicurie sont des soins paramédicaux réalisés avec des instruments stérilisés par autoclave. Seul un pédicure podologue diplômé d’Etat est apte à les réaliser.</p>
                 <p>Les esthéticiennes réalisent une beauté des pieds qui est un acte esthétique et non thérapeutique.</p>
@@ -28,10 +40,10 @@
             </div>
 
             <div class="row">
-                <div class="col-6 p-5">
+                <div class="col-4 offset-2 p-5">
                     <img class="w-100 h-auto" src="/pedicurie_avant_1.jpg" alt="avant_1">
                 </div>
-                <div class="col-6 p-5">
+                <div class="col-4 p-5">
                     <img class="w-100 h-auto" src="/pedicurie_apres_1.jpg" alt="apres_1">
                 </div>
             </div>

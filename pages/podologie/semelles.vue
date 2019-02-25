@@ -1,22 +1,23 @@
 <template>
 	<section class="bg-grey">
+        <h1 class="banner-h1">La podologie</h1>
+        <img class="w-100 h-auto" src="/semelle_banner.jpg" alt="semelles_banner">
+        
         <div class="container">
-            <h1 class="py-3 m-0">La podologie</h1>
-            <div class="bg-white p-3 mb-3">
+            <div class="bg-white p-3 mb-3 mt-5">
                 <p>
                     C’est la science qui étudie la prévention, le diagnostic et la prise en charge des
                     pathologies du pied et de l’appareil locomoteur.
                 </p>
                 <p>
-                    Je réalise des semelles orthopédiques à la demande du médecin ou du
-                    chirurgien, mais je peux aussi en prescrire. (Mais vous ne serez pas
-                    remboursés !)
+                    Je réalise des semelles orthopédiques à la demande du médecin, je peux aussi en prescrire (mais vous ne serez pas
+                    remboursés).
                 </p>
                 <div>
                     Lors du premier rendez-vous, je réalise un examen clinique complet :
                     <ul>
                         <li>Interrogatoire</li>
-                        <li>Examen statique global sur podoscope et sur plateforme électronique</li>
+                        <li>Examen statique global sur podoscope et sur plateforme podobarométrique</li>
                         <li>Examen dynamique</li>
                     </ul>
                 </div>
@@ -25,9 +26,10 @@
                     différents patients ayants des âges et des activités différentes.
                 </p>
             </div>
+
             <h2 class="py-3 m-0">Les semelles thermoformées</h2>
             <div class="bg-white p-3 mb-3">
-                <p>Elles sont moulées sur le pied du patient.</p>
+                <p>Elles sont moulées sur le pied du patient et ont une action biomécanique.</p>
                 <p>
                     Il existe énormément de matériaux qui me permettent de faire des semelles
                     efficaces et confortables en fonction de chaque pathologie et de chaque
@@ -45,6 +47,19 @@
                     plantaire, problèmes de dos, inégalité vraie des membres inférieurs…
                 </p>
             </div>
+
+            <div class="row">
+                <div class="col-4 p-5">
+                    <img class="w-100 h-auto" src="/semelle_thermo_1.jpg" alt="semelle_thermo_1">
+                </div>
+                <div class="col-4 p-5">
+                    <img class="w-100 h-auto" src="/semelle_thermo_2.jpg" alt="semelle_thermo_2">
+                </div>
+                <div class="col-4 p-5">
+                    <img class="w-100 h-auto" src="/semelle_thermo_3.jpg" alt="semelle_thermo_3">
+                </div>
+            </div>
+
             <h2 class="py-3 m-0">Les semelles proprioceptives</h2>
             <div class="bg-white p-3 mb-3">
                 <p>
@@ -61,6 +76,16 @@
                     soulager des maux de genoux, de bassin, de dos…
                 </p>
             </div>
+
+            <div class="row">
+                <div class="col-4 offset-2 p-5">
+                    <img class="w-100 h-auto" src="/semelle_proprio_1.jpg" alt="semelle_proprio_1">
+                </div>
+                <div class="col-4 p-5">
+                    <img class="w-100 h-auto" src="/semelle_proprio_2.jpg" alt="semelle_proprio_2">
+                </div>
+            </div>
+
             <div class="p-3 d-flex flex-column">
                 <div class="d-flex justify-content-center">
                     <b class="text-center text-20-xs py-3">
@@ -88,8 +113,6 @@
                     </b>
                 </div>
             </div>
-
-
         </div>
 	</section>
 </template>

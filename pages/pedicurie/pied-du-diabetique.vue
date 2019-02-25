@@ -1,6 +1,6 @@
 <template>
 	<section class="bg-grey">
-        <div class="container pb-3">
+        <div class="container">
             <h1 class="py-3 m-0">Pied du diabétique</h1>
             <div class="bg-white p-3 mb-3">
                 <p>

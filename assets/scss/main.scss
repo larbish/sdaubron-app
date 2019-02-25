@@ -5,10 +5,28 @@ h1 {
     @media (min-width: 992px) { 
         font-size: 2.5rem !important;
     }
-} 
+}
+
+.banner-h1 {
+	background-color: #2F2F2F; // $midas-tertiary-color in web
+	color: #FFFFFF; // $midas-secondary-color in web
+	font-size: 16px !important;
+	margin-top: 40px !important;
+	margin-left: 30px !important;
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+	position: absolute;
+	text-transform: uppercase;
+	font-weight: bold;
+
+	@media (min-width: 992px) {
+		font-size: 36px !important;
+	}
+}
 
 .container {
-    min-height: calc(100vh - 92px - 56px);
+    min-height: calc(100vh - 92px - 56px - 300px);
+    padding-bottom: 3rem;
 }
 
 .header-container {

@@ -12,7 +12,7 @@
 			<!-- Photo by How-Soon Ngu on Unsplash -->
 			<!-- Photo by Nick Wilkes on Unsplash -->
 			<b-carousel-slide img-src="~/assets/images/home-slide-1.jpg">
-			 	<h1 class="mb-5">Hello world!</h1>
+			 	<h1 class="mb-5 text-black">Cabinet de podologie</h1>
 			 </b-carousel-slide>
 			<b-carousel-slide  img-src="~/assets/images/home-slide-2.jpg"></b-carousel-slide>
 		</b-carousel>

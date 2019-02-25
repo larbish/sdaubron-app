@@ -1,8 +1,10 @@
 <template>
 	<section class="bg-grey">
+        <h1 class="banner-h1">La posturologie</h1>
+        <img class="w-100 h-auto" src="/posturologie_banner.jpg" alt="posturologie_banner">
+
         <div class="container">
-            <h1 class="py-3 m-0">La posturologie</h1>
-            <div class="bg-white p-3 mb-3">
+            <div class="bg-white p-3 mb-3 mt-5">
                 <p>
                     La posturologie est une science qui a pour but de comprendre et de traiter les
                     douleurs liées à un problème de stabilité.
@@ -13,7 +15,7 @@
                     bouche, les articulations, l’oreille interne, la peau…
                 </p>
                 <p>
-                    Si un ou plusieurs capteurs dysfonctionnent le système postural est perturbée :
+                    Si un ou plusieurs capteurs dysfonctionnent le système postural est perturbé :
                     Une posture normale entraine une absence de contrainte, des rapports
                     harmonieux et donc une diminution ou une disparition des douleurs.
                 </p>
