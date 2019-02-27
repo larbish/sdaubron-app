@@ -36,6 +36,8 @@
 
 					<b-nav-item to="/reflexologie">Réfléxologie</b-nav-item>
 
+					<b-nav-item to="/contact">Contact</b-nav-item>
+
 				</b-navbar-nav>
 
 			</b-collapse>
