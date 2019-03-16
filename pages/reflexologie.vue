@@ -4,8 +4,7 @@
         <img class="w-100 h-auto" src="/reflexologie_banner.jpg" alt="reflexologie_banner">
 
         <div class="container">
-            <h1 class="py-3 m-0">La réflexologie</h1>
-            <div class="bg-white p-3">
+            <div class="bg-white p-3 mt-md-5 mt-3">
                 <p>
                     La réfléxologie plantaire est une méthode qui utilise le processus d’auto-
                     guérison naturel du corps. Les pieds sont une représentation miniature du
@@ -21,10 +20,10 @@
                 </p>
             </div>
             <div class="row">
-                <div class="col-6 p-5">
+                <div class="col-12 col-md-6 p-md-5 p-3">
                     <img class="w-100 h-auto" src="/reflexologie_face_mediane.jpg" alt="reflexologie_face_mediane">
                 </div>
-                <div class="col-6 p-5">
+                <div class="col-12 col-md-6 p-md-5 p-3">
                     <img class="w-100 h-auto" src="/reflexologie_planche.jpg" alt="reflexologie_planche">
                 </div>
             </div>

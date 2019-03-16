@@ -1,7 +1,9 @@
 <template>
 	<section class="bg-grey">
-        <div class="container">
-            <h1 class="py-3 m-0">Les orthoplasties</h1>
+        <h1 class="banner-h1">Les orthoplasties</h1>
+        <img class="w-100 h-auto" src="/orthoplastie_banner.jpg" alt="orthoplastie_banner">
+
+        <div class="container mt-md-5 mt-3">
             <div class="bg-white p-3">
                 <p>
                     Ce sont des orthèses amovibles fabriquées sur mesure en élastomère de

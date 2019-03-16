@@ -4,7 +4,7 @@
         <img class="w-100 h-auto" src="/posturologie_banner.jpg" alt="posturologie_banner">
 
         <div class="container">
-            <div class="bg-white p-3 mb-3 mt-5">
+            <div class="bg-white p-3 mb-3 mt-md-5 mt-3">
                 <p>
                     La posturologie est une science qui a pour but de comprendre et de traiter les
                     douleurs liées à un problème de stabilité.

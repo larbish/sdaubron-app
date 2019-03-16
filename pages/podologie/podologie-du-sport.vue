@@ -4,7 +4,7 @@
         <img class="w-100 h-auto" src="/podologie_sport_banner.jpg" alt="podologie_sport_banner">
 
         <div class="container">
-            <div class="bg-white p-3 mb-3 mt-5">
+            <div class="bg-white p-3 mb-3 mt-md-5 mt-3">
                 <p>
                     La podologie du sport est une spécialité car il faut connaitre le sport pour savoir
                     quelles sont les contraintes que va rencontrer le sportif et apporter les
@@ -40,13 +40,13 @@
             </div>
 
             <div class="row">
-                <div class="col-4 p-5">
+                <div class="col-12 col-md-4 p-md-5 p-3">
                     <img class="w-100 h-auto" src="/podologie_sport_1.jpg" alt="podologie_sport_1">
                 </div>
-                <div class="col-4 p-5">
+                <div class="col-12 col-md-4 p-md-5 p-3">
                     <img class="w-100 h-auto" src="/podologie_sport_2.jpg" alt="podologie_sport_2">
                 </div>
-                <div class="col-4 p-5">
+                <div class="col-12 col-md-4 p-md-5 p-3">
                     <img class="w-100 h-auto" src="/podologie_sport_3.jpg" alt="podologie_sport_3">
                 </div>
             </div>

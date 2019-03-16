@@ -1,8 +1,10 @@
 <template>
 	<section class="bg-grey">
+        <h1 class="banner-h1">Pied du diabétique</h1>
+        <img class="w-100 h-auto" src="/pied_diabetique_banner.jpg" alt="pied_diabetique_banner">
+        
         <div class="container">
-            <h1 class="py-3 m-0">Pied du diabétique</h1>
-            <div class="bg-white p-3 mb-3">
+            <div class="bg-white p-3 mt-md-5 mt-3 mt mb-3">
                 <p>
                     30 % des personnes qui ont du diabète sont susceptibles d’avoir des problèmes
                     neuropathiques ou artériopathiques au niveau des membres inférieurs. A cause
@@ -45,6 +47,18 @@
                 <p>1 : neuropathie sensitive isolée, perte de sensation</p>
                 <p>2 : neuropathie et déformation des pieds et/ou artérite</p>
                 <p class="mb-0">3 : antécédent d’amputation ou d’ulcération</p> -->
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-md-4 p-md-5 p-3">
+                    <img class="w-100 h-auto" src="/pied_dab_1.jpg" alt="pied_dab_1">
+                </div>
+                <div class="col-12 col-md-4 p-md-5 p-3">
+                    <img class="w-100 h-auto" src="/pied_dab_2.jpg" alt="pied_dab_2">
+                </div>
+                <div class="col-12 col-md-4 p-md-5 p-3">
+                    <img class="w-100 h-auto" src="/pied_dab_3.jpg" alt="pied_dab_3">
+                </div>
             </div>
         </div>
 	</section>

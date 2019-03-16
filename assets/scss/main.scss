@@ -1,18 +1,38 @@
 $bg-color: #f4f4f4;
 
 h1 {
-    font-size: 1.2rem !important;
+    font-size: 1.5rem !important;
     @media (min-width: 992px) { 
         font-size: 2.5rem !important;
     }
 }
 
+h2 {
+    font-size: 1.25rem !important;
+    font-weight: bold;
+    @media (min-width: 992px) { 
+        font-size: 2rem !important;
+    }
+}
+
+h3 {
+    font-size: 1.1rem !important;
+    font-weight: bold;
+    @media (min-width: 992px) { 
+        font-size: 1.5rem !important;
+    }
+}
+
+.text-bold {
+     font-weight: bold;
+ }
+
 .banner-h1 {
 	background-color: #2F2F2F; // $midas-tertiary-color in web
 	color: #FFFFFF; // $midas-secondary-color in web
-	font-size: 16px !important;
-	margin-top: 40px !important;
-	margin-left: 30px !important;
+    font-size: 16px !important;
+    margin-top: 20px !important;
+    margin-left: 20px !important;
 	padding-left: 10px !important;
 	padding-right: 10px !important;
 	position: absolute;
@@ -20,6 +40,8 @@ h1 {
 	font-weight: bold;
 
 	@media (min-width: 992px) {
+        margin-top: 40px !important;
+        margin-left: 30px !important;
 		font-size: 36px !important;
 	}
 }
@@ -77,20 +99,20 @@ h1 {
     font-size: 20px;
 }
 
-// For block vue 
-.text-position {
-    color: black;
-    font-size: 22px;
-    font-weight: bold;
-    position: absolute;
-    top: -3%;
-    left: 6%;
-    @media (min-width: 992px) { 
-        top: 1%;
-        left: 12%;
-    }
-}
-
 .text-black {
     color: black !important;
+}
+
+.btn {
+	border-radius: 35px !important;
+	color: white;
+	background-color: black;
+}
+.btn:hover {
+	border: 1px solid black;
+	color: black;
+	background-color: white;
+}
+.btn:focus {
+	box-shadow: none;
 }

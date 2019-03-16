@@ -11,7 +11,7 @@
 			</div>
 			<div class="mr-4">
 				<fa class="mr-2" :icon="['fa', 'phone']" />
-				<span>06 70 68 96 79</span>
+				<span>01 69 28 07 65</span>
 			</div>
 		</div>
 		<div class="hidden-lg bg-black text-white d-flex flex-column justify-content-center text-center py-3">
@@ -25,7 +25,7 @@
 			</div>
 			<div>
 				<fa class="mr-2" :icon="['fa', 'phone']" />
-				<span>06 70 68 96 79</span>
+				<span>01 69 28 07 65</span>
 			</div>
 		</div>
   	</section>

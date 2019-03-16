@@ -4,7 +4,7 @@
         <img class="w-100 h-auto" src="/semelle_banner.jpg" alt="semelles_banner">
         
         <div class="container">
-            <div class="bg-white p-3 mb-3 mt-5">
+            <div class="bg-white p-3 mb-3 mt-md-5 mt-3">
                 <p>
                     C’est la science qui étudie la prévention, le diagnostic et la prise en charge des
                     pathologies du pied et de l’appareil locomoteur.
@@ -49,13 +49,13 @@
             </div>
 
             <div class="row">
-                <div class="col-4 p-5">
+                <div class="col-12 col-md-4 p-md-5 p-3">
                     <img class="w-100 h-auto" src="/semelle_thermo_1.jpg" alt="semelle_thermo_1">
                 </div>
-                <div class="col-4 p-5">
+                <div class="col-12 col-md-4 p-md-5 p-3">
                     <img class="w-100 h-auto" src="/semelle_thermo_2.jpg" alt="semelle_thermo_2">
                 </div>
-                <div class="col-4 p-5">
+                <div class="col-12 col-md-4 p-md-5 p-3">
                     <img class="w-100 h-auto" src="/semelle_thermo_3.jpg" alt="semelle_thermo_3">
                 </div>
             </div>
@@ -78,10 +78,10 @@
             </div>
 
             <div class="row">
-                <div class="col-4 offset-2 p-5">
+                <div class="col-12 col-md-4 offset-md-2 p-md-5 p-3">
                     <img class="w-100 h-auto" src="/semelle_proprio_1.jpg" alt="semelle_proprio_1">
                 </div>
-                <div class="col-4 p-5">
+                <div class="col-12 col-md-4 p-md-5 p-3">
                     <img class="w-100 h-auto" src="/semelle_proprio_2.jpg" alt="semelle_proprio_2">
                 </div>
             </div>

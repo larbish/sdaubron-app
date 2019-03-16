@@ -4,7 +4,7 @@
         <img class="w-100 h-auto" src="/pedicurie_banner.jpg" alt="pedicurie_banner">
 
         <div class="container">
-            <div class="bg-white p-3 mb-3 mt-5">
+            <div class="bg-white p-3 mb-3 mt-md-5 mt-3">
                 <p>La pédicurie permet de traiter les affections épidermiques du pied et les affections unguéales (de l’ongle) :</p>
                 <ul>
                     <li>Cor, œil de perdrix (cor entre les orteils)</li>
@@ -22,10 +22,10 @@
             </div>
             
             <div class="row">
-                <div class="col-4 offset-2 p-5">
+                <div class="col-md-4 offset-md-2 col-12 p-md-5 p-3">
                     <img class="w-100 h-auto" src="/pedicurie_avant_2.jpg" alt="avant_2">
                 </div>
-                <div class="col-4 p-5">
+                <div class="col-md-4 col-12 p-md-5 p-3">
                     <img class="w-100 h-auto" src="/pedicurie_apres_2.jpg" alt="apres_2">
                 </div>
             </div>
@@ -40,10 +40,10 @@
             </div>
 
             <div class="row">
-                <div class="col-4 offset-2 p-5">
+                <div class="col-md-4 offset-md-2 col-12 p-md-5 p-3">
                     <img class="w-100 h-auto" src="/pedicurie_avant_1.jpg" alt="avant_1">
                 </div>
-                <div class="col-4 p-5">
+                <div class="col-md-4 col-12 p-md-5 p-3">
                     <img class="w-100 h-auto" src="/pedicurie_apres_1.jpg" alt="apres_1">
                 </div>
             </div>

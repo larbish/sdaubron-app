@@ -4,7 +4,7 @@
         <img class="w-100 h-auto" src="/podopediatrie_banner.jpg" alt="podopediatrie_banner">
 
         <div class="container">
-            <div class="bg-white p-3 mb-3 mt-5">
+            <div class="bg-white p-3 mb-3 mt-md-5 mt-3">
                 <p>
                     La prise en charge de l’enfant en cabinet de podologie est une véritable
                     spécialité. On ne traite pas un enfant comme un adulte car il est en pleine
