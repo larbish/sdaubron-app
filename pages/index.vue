@@ -24,7 +24,7 @@
                         <div class="d-flex justify-content-between">
                             <h1>Pédicure Podologue Orsay</h1>
 							<div class="d-none d-md-block">
-								<a class="btn py-2 px-4 text-20-xs d-flex align-items-center" target="_blank" href="https://www.doctolib.fr/pedicure-podologue/orsay/sandrine-daubron/">
+								<a class="btn py-2 px-4 text-20-xs d-flex align-items-center" target="_blank" rel="noreferrer" href="https://www.doctolib.fr/pedicure-podologue/orsay/sandrine-daubron/">
 									<span>Prendre rendez-vous</span>
 									<fa class="ml-2" :icon="['fa', 'angle-right']" />
 								</a>
@@ -46,7 +46,7 @@
 						N'hésitez pas à me contacter pour une urgence directement par téléphone au 01 69 28 07 65.
 						Je me déplace à domicile le jeudi sur les communes d'Orsay, Bures et Villebon.
 					</p>
-					<a class="mt-4 btn py-2 px-4 text-20-xs d-flex align-items-center d-block d-md-none" target="_blank" href="https://www.doctolib.fr/pedicure-podologue/orsay/sandrine-daubron/">
+					<a class="mt-4 btn py-2 px-4 text-20-xs d-flex align-items-center d-block d-md-none" target="_blank" rel="noreferrer" href="https://www.doctolib.fr/pedicure-podologue/orsay/sandrine-daubron/">
 						<span>Prendre rendez-vous</span>
 						<fa class="ml-2" :icon="['fa', 'angle-right']" />
 					</a>

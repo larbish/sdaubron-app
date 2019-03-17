@@ -2,7 +2,7 @@
   <section>
   	<div>
         <nuxt-link class="circle plus-position d-flex align-items-center justify-content-center" :to="job.url">
-            <fa :icon="['fa', 'plus']" />
+            <fa class="text-black" :icon="['fa', 'plus']" />
         </nuxt-link>
         <img class="w-100 job-img" :src="imgUrl" :alt="job.name">
         <h2 class="title text-position text-uppercase text-bold">{{ job.name }}</h2>
@@ -44,8 +44,8 @@ export default {
 .circle {
     z-index: 100;
     text-align: center;
-    width: 45px;
-    height: 45px;
+    width: 35px;
+    height: 35px;
     line-height: 27px;
     background-color: black;
     border-radius: 35px;
